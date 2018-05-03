@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluffyNet", "FluffyNet\FluffyNet.csproj", "{FBFC6E70-D115-4A65-8568-914C0568E4FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluffyNetTest", "FluffyNetTest\FluffyNetTest.csproj", "{2E389CEB-AA4D-47FC-A7E2-A282FE36E1D0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FBFC6E70-D115-4A65-8568-914C0568E4FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBFC6E70-D115-4A65-8568-914C0568E4FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBFC6E70-D115-4A65-8568-914C0568E4FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBFC6E70-D115-4A65-8568-914C0568E4FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E389CEB-AA4D-47FC-A7E2-A282FE36E1D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E389CEB-AA4D-47FC-A7E2-A282FE36E1D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E389CEB-AA4D-47FC-A7E2-A282FE36E1D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E389CEB-AA4D-47FC-A7E2-A282FE36E1D0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
