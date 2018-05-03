@@ -61,6 +61,12 @@ server.NewPacket += (ref int id, FluffyNet.Server.PacketParser<Packet> parser, F
         break;
     }
 };
+
+ // Подключился новый клиент
+server.NewClientConnected += client => { };
+
+// Клиент отключился
+server.ClientDisconnected += client => { };
 ```
 
 Пример клиентской части:
