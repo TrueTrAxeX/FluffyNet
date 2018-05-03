@@ -3,7 +3,7 @@ Lightweight Network Library C#
 
 Для начала на серверной и клиентской части создадим классы-пакеты.
 
-```
+```csharp
 // Пакет, который будет посылать клиент
 public class MyRequestPacket : Packet
 {
@@ -31,7 +31,7 @@ public class MyResponsePacket : Packet
 
 Пример серверной части
 
-```
+```csharp
 FluffyServer server = new FluffyServer(
                 port: 42444, // Порт на котором будет слушать соединения
                 maxWaitPingTime: TimeSpan.FromSeconds(45), // Максимальное время ожидания пинга от клиента, если пинг не поступил, то соединение будет разорвано 
@@ -65,7 +65,7 @@ server.NewPacket += (ref int id, FluffyNet.Server.PacketParser<Packet> parser, F
 
 Пример клиентской части:
 
-```
+```csharp
 // Создаем экземпляр клиента и указываем IP адрес и порт к которому хотим подключиться
 FluffyNetClient client = new FluffyNetClient("127.0.0.1", 42444);
 
